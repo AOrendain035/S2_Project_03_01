@@ -1,0 +1,49 @@
+@charset "utf-8"
+
+/* In the block of code underneath, I have set three different fonts that the browser will be able to read. They are "Champagne, Grunge, and Dobkin." */
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff'),
+        url('cac_champagne.ttf') format('truetype');
+    font-family: Grunge;
+    src: url('1942.woff') format('woff'),
+        url('1942.tff') format('truetype');
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('woff'),
+        url('DobkinPlain.ttf')format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Alexander Orendain
+   Date: 9.6.18   
+   
+   Filename: ph_styles.css
+
+*/
+/* Structural Styles */
+/* In the following chunck of code, I have set the hsl of the background color 91 hue, 85% saturation, and 56% lightness.*/
+html {
+    background-color: hsl(91, 8%, 56%);
+}
+
+body {
+    background-color: hsl((91, 8%, 56%);
+    font-family: Palatino Linotype, Book Antigua, Palatino, serif;
+}
+
+header {
+    background-color: black;
+}
+
+p {
+    margin: 0px;
+}
+
+/* Navigation Styles */
+/* Section Styles */
+/* Description List Styles */
