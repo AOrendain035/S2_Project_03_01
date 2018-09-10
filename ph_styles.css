@@ -32,7 +32,7 @@
 
 */
 /* Structural Styles */
-/* In the following chunk of code, I have set the hsl of the background color 91 hue, 85% saturation, and 56% lightness.*/
+/* In the following chunk of code, I have set the hsl of the html element to a background color 91 hue, 85% saturation, and 56% lightness. I have also edited the color and font of certain chunks of the website such as the header, paragraph elements, and the address.*/
 html {
     background-color: hsl(91, 8%, 56%);
 }
@@ -68,6 +68,7 @@ address {
 }
 
 /* Navigation Styles */
+/* Below, I have specifially edited all elements related to the navigation. I made it so were it would change color and opacity when one hovers/clicks on an interactable item. */
 nav a {
     font-family: Trebuchet MS, Helvetica, sans-serif;
     padding-top: 10px;
@@ -88,6 +89,7 @@ nav>ul>li>a:hover {
 }
 
 /* Section Styles */
+/* Below, I have edited the font and look of the playbills so that the fonts and colors that best match each play show up on the playbills. */
 section.playbill h1 {
     font-size: 3em;
     font-weight: normal;
@@ -131,3 +133,15 @@ section#play4 h1 {
 }
 
 /* Description List Styles */
+/* In this small block of code, I have edited it so where the original writers' and the directors' names become bolder and more eye catching. */
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
